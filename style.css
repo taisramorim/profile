@@ -1,81 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
 
-
 body {
-  font-family: 'Playpen Sans', cursive;
-  font-weight: 200;
-  font-size: 20px;
-  background-color: antiquewhite;
-}
-h1{
-  color: rgb(88, 27, 27);
-  margin: 30px;
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
-a{
-  text-decoration: none;
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin: 20px 0;
 }
 
-p{
-  padding: 5px;
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 10px 0;
+    color: #666;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-.main-header{
-  color: rgb(89, 56, 82);
+.main-header {
+    color: #444;
+    font-size: 24px;
+    margin-top: 10px;
 }
 
-.link-button{
-  font-weight: 300;
-  background-color: purple;
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 15px;
+.link-button {
+    font-weight: 600;
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
 }
 
-.social-media{
-  color: rgb(73, 50, 94);
-  text-align: center;
+.link-button:hover {
+    background-color: #2980b9;
 }
 
-.container{
-  width: 700px;
-  margin: 40px auto;
+.social-media {
+    color: #444;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
-.card{
-  background-color: rgb(253, 250, 250);
-  text-align: center;
-  margin: 20px 0;
-  padding: 40px;
-  border-radius: 10px;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
 }
 
-li{
-  list-style: none;
-  text-align: center;
-	display: inline-block;
-  font-size: 50px;
+ul.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-@media (max-width: 425px) {
-  .container {
-    width: 360px;
-  }
+li {
+    font-size: 32px;
+    margin: 0 15px;
+    color: #444;
 }
 
-@media (max-width: 375px) {
-  .container {
-    width: 300px;
-  }
-}
-
-@media (max-width: 320px) {
-  .container {
-    width: 280px;
-  }
+img {
+    border-radius: 50%;
+    max-width: 100%;
 }
